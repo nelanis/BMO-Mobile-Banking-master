@@ -1,0 +1,116 @@
+﻿{
+  "person": [
+    {
+      "Company": "Tim Hortons",
+      "Product": "Coffee",
+      "Date": "3/1/2017",
+      "Amount": "2.10"
+    },
+    {
+      "Company": "Tim Hortons",
+      "Product": "Donut",
+      "Date": "3/1/2017",
+      "Amount": "2.00"
+    },
+    {
+      "Company": "Tim Hortons",
+      "Product": "Sandwitch",
+      "Date": "3/12/2017",
+      "Amount": "6.10"
+    },
+    {
+      "Company": "Starbucks",
+      "Product": "Coffee",
+      "Date": "3/16/2017",
+      "Amount": "3.10"
+    },
+    {
+      "Company": "Walmart",
+      "Product": "Bread",
+      "Date": "3/16/2017",
+      "Amount": "2.30"
+    },
+    {
+      "Company": "Walmart",
+      "Product": "Banana",
+      "Date": "3/16/2017",
+      "Amount": "1.15"
+    },
+    {
+      "Company": "Walmart",
+      "Product": "Banana",
+      "Date": "3/16/2017",
+      "Amount": "1.15"
+    },
+
+    {
+      "Company": "Walmart",
+      "Product": "Paper Towel",
+      "Date": "3/16/2017",
+      "Amount": "1.05"
+    },
+
+    {
+      "Company": "Metro",
+      "Product": "Chicken",
+      "Date": "3/16/2017",
+      "Amount": "3.49"
+    },
+
+    {
+      "Company": "Metro",
+      "Product": "Vegetable Oil",
+      "Date": "3/16/2017",
+      "Amount": "6.02"
+    },
+
+    {
+      "Company": "Walmart",
+      "Product": "Banana",
+      "Date": "3/16/2017",
+      "Amount": "1.15"
+    },
+    {
+      "Company": "KFC",
+      "Product": "Meal",
+      "Date": "3/19/2017",
+      "Amount": "1.15"
+    },
+    {
+      "Company": "Tim Hortons",
+      "Product": "Coffee",
+      "Date": "3/19/2017",
+      "Amount": "1.15"
+    },
+    {
+      "Company": "Tim Hortons",
+      "Product": "Coffee",
+      "Date": "3/19/2017",
+      "Amount": "2.15"
+    },
+    {
+      "Company": "Starbucks",
+      "Product": "Sandwich",
+      "Date": "3/21/2017",
+      "Amount": "1.15"
+    },
+    {
+      "Company": "Starbucks",
+      "Product": "Coffee",
+      "Date": "3/22/2017",
+      "Amount": "2.15"
+    },
+    {
+      "Company": "Metro",
+      "Product": "Chicken",
+      "Date": "3/23/2017",
+      "Amount": "6.13"
+    },
+    {
+      "Company": "Metro",
+      "Product": "Corn",
+      "Date": "3/23/2017",
+      "Amount": "3.02"
+    }
+  ]
+}

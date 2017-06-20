@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <title>BlankCordovaApp1</title>
+</head>
+<body>
+
+    <div data-role="page" class="ui-content">
+        <div data-role="header">
+            <h2>Transactions</h2>
+        </div>
+            <div data-role="navbar" data-id="nb">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class="ui-btn-active ui-state-persist">Transaction</a></li>
+                </ul>
+            </div>
+        <div data-role="main">
+            <div class="ui-grid-solo">
+                <div id="wrapper" class="ui-block-a">
+                    <form class="ui-filterable">
+                        <input id="input-filter" data-type="search" data-filter-reveal="true">
+                    </form>
+                    <table data-role="table" data-mode="columntoggle" class="ui-responsive ui-shadow" id="myTable" data-filter="true" data-input="#input-filter">
+                        <thead>
+                            <tr>
+                                <th data-priority="1">Company</th>
+                                <th data-priority="2">Product</th>
+                                <th data-priority="3">Price</th>
+                                <th data-priority="4">Date</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td>Total spent: </td>
+                                <td></td>
+                                <td id="sum"></td>
+                            </tr>
+                        </tfoot>
+                        <tbody id="tbl-body"></tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="scripts/appscript.js"></script>
+
+</body>
+</html>

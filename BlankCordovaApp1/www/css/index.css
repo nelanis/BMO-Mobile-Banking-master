@@ -1,0 +1,304 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding: 0px;
+    margin: 0px;
+}
+
+.body {
+    background-color: lightgrey;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    background-color: #E4E4E4;
+    background-attachment: fixed;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: lightgrey;
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+.app {
+    /*background: url(../images/cordova.png) no-repeat center top; 
+    position: absolute;             
+    left: 50%;
+    top: 50%;
+    height: 50px;                  
+    width: 225px;                   
+    text-align: center;
+    padding: 180px 0px 0px 0px;     
+    margin: -115px 0px 0px -112px;*/
+    background-color:lightgrey;
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        /*background-position:left center;
+        padding:75px 0px 75px 170px;
+        margin:-90px 0px 0px -198px;*/
+    }
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+#srch,#k, #wrapper {
+    width:95%;
+}
+#wrapper {
+    font-size:0.7em;
+}
+.bx {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+h1 {
+    color: white;
+    background-color: #0484B7;
+    background-size: 400px 400px;
+    /*background: linear-gradient(to top,cornflowerblue 20%, white 80%);*/
+    background-position: top;
+    font-family: Calibri;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.bgnd {
+    background-color: #0484B7;
+}
+
+.searchbut {
+    background-color: #0484B7;
+    color: white;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: white;
+    position: relative;
+    left: 50px;
+    top: 0px;
+    display: inline-grid;
+    padding: 5px 5px;
+    margin: 10px 20px;
+    width: 220px;
+}
+
+    .searchbut:hover {
+        background-image: none;
+        background-color: white;
+        color: #0484B7;
+    }
+
+.smallbut {
+    background-color: #0484B7;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid;
+    /*border-radius: 8px;*/
+    border-color: white;
+    position: relative;
+    display: inline-grid;
+    left: 7px;
+    padding: 0px;
+    margin: 5px 0px;
+    height: 25px;
+    width: 115px;
+}
+
+    .smallbut:hover {
+        background-image: none;
+        background-color: white;
+        color: #0484B7;
+    }
+
+.input {
+    margin: 0px;
+    width: 140px;
+    height: 140px;
+    display: inline-grid;
+}
+
+.container {
+    position: relative;
+}
+
+.button {
+    background-color: white;
+    background-size: contain;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /*border-radius: 8px;*/
+    color: white;
+    vertical-align: bottom;
+    height: 160px;
+    width: 160px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-grid;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.textbottom {
+    text-indent: 0%;
+    white-space: normal;
+    overflow: auto;
+    position: relative;
+    top: 55px;
+    left: 0px;
+    font-size: 18px;
+    color: #0484B7;
+    margin: 0px;
+    padding: 0;
+}
+
+.button:hover {
+    text-indent: 0%;
+    white-space: normal;
+    overflow: auto;
+    background-image: none;
+    color: white;
+    background-color: black;
+}
+
+
+.button1 {
+    background-image: url(/images/logo-metro.png);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    .button1:hover {
+        background-image: none;
+        background-color: #0484B7;
+    }
+
+.button2 {
+    background-image: url(/images/Tim_Hortons-logo-C043823AE9-seeklogo.com.gif);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    .button2:hover {
+        background-image: none;
+        background-color: #0484B7;
+    }
+
+.button3 {
+    background-image: url(/images/Walmart_logo.svg.png);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    .button3:hover {
+        background-image: none;
+        background-color: #0484B7;
+    }
+
+.button4 {
+    background-image: url(/images/Font-Starbucks-Logo.png);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    .button4:hover {
+        background-image: none;
+        background-color: #0484B7;
+    }
+
+.button5 {
+    background-image: url(/images/Font-of-the-KFC-Logo.jpeg);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    .button5:hover {
+        background-image: none;
+        background-color: #0484B7;
+    }
+
+.button6 {
+    /*background-image: url(/images/Starbucks_Coffee_Logo.svg.png);*/
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    .button6:hover {
+        background-image: none;
+        background-color: #0484B7;
+    }
+
+
